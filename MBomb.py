@@ -8,7 +8,8 @@ import requests
 import sys
 import os
 import shutil
-from more.data import *MASUD
+from more.data import *
+#ok
 #MBomb
 #Get Rows and Columns of Screen
 columns = shutil.get_terminal_size().columns
