@@ -8,7 +8,7 @@ import requests
 import sys
 import os
 import shutil
-import ."/data/data/com.termux/files/home/MasudBomber/MasudBomber/MBomb.py"
+import .data/data/com.termux/files/home/MasudBomber/MasudBomber/MBomb.py"
 #ok
 #MBomb
 #Get Rows and Columns of Screen
