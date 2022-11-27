@@ -8,7 +8,7 @@ import requests
 import sys
 import os
 import shutil
-from .data
+from import .data file
 #ok
 #MBomb
 #Get Rows and Columns of Screen
