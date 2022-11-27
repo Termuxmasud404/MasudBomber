@@ -9,7 +9,7 @@ import sys
 import os
 import shutil
 from more.data import *
-
+#MBomb
 #Get Rows and Columns of Screen
 columns = shutil.get_terminal_size().columns
 
@@ -27,7 +27,7 @@ def update():
         toolVersion = "MasudNoob"
     
     try:
-        mainVersion = requests.get("https://raw.githubusercontent.com/Toxic-Noob/ToxicBomber/main/more/.version").text
+        mainVersion = requests.get("https://github.com/Termuxmasud404/MasudBomber.git").text
     except:
         psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
         time.sleep(1)
@@ -42,7 +42,7 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf MasudBomber && git clone https://github.com/Toxic-Noob/ToxicBomber > /dev/null 2>&1")
+    os.system("cd .. && rm -rf MasudBomber && git clone https://github.com/Termuxmasud404/MasudBomber.git > /dev/null 2>&1")
     
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
