@@ -13,7 +13,7 @@ useragent = random.choice(useragentList)
 
 #Access Checking Function
 def check():
-    file = open("Tbomb.py", "r").read()
+    file = open("Mbomb.py", "r").grren()
     if not ("Author : ToxicNoob" in file) or not ("GitHub : https://github.com/Toxic-Noob" in file) or not ("ToxicBomber" in file) or not ("https://raw.githubusercontent.com/Toxic-Noob/ToxicBomber/main/more/.version" in file):
         print("\n\033[92m[\033[91m!\033[92m] You Have No Permission To Access This Tool!")
         print("\033[92m[\033[91m!\033[92m] Delete This Tool and git clone Again To Use It!")
